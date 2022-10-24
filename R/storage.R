@@ -1,6 +1,6 @@
 #' Storage costs
 #'
-#' Graph of storage costs over time
+#' Graph of storage costs over time, using data taken from https://jcmit.net/diskprice.htm.
 #' @importFrom rvest read_html html_nodes html_table
 #' @importFrom graphics axis
 #'

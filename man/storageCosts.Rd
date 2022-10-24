@@ -7,5 +7,5 @@
 storageCosts()
 }
 \description{
-Graph of storage costs over time
+Graph of storage costs over time, using data taken from https://jcmit.net/diskprice.htm.
 }
