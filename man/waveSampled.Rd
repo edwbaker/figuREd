@@ -4,7 +4,7 @@
 \alias{waveSampled}
 \title{Show a sampled wave}
 \usage{
-waveSampled(wave, plot_every, sample.depth)
+waveSampled(wave, plot_every, sample.depth, show_wave = T)
 }
 \arguments{
 \item{wave}{A Wave object}
@@ -12,6 +12,8 @@ waveSampled(wave, plot_every, sample.depth)
 \item{plot_every}{Sample rate to show}
 
 \item{sample.depth}{Number of sampling levels to use}
+
+\item{show_wave}{Logical. Whether to plot the waveform.}
 }
 \description{
 Show a sampled wave
