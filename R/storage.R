@@ -13,7 +13,7 @@ storageCosts <- function() {
   page <- read_html(drive_url)
 
   drives <- page |> html_nodes("table") |> html_table(fill = TRUE)
-  drives <- drives[[2]]
+  drives <- drives[[1]]
 
   #Fix naming
   cn <- drives[1,]
