@@ -8,12 +8,12 @@
 
 storageCosts <- function() {
 
-  drive_url <- "https://jcmit.net/diskprice.htm"
+  drive_url <- "https://web.archive.org/web/20250117083324/https://jcmit.net/diskprice.htm"
 
   page <- read_html(drive_url)
 
   drives <- page |> html_nodes("table") |> html_table(fill = TRUE)
-  drives <- drives[[1]]
+  drives <- drives[[2]]
 
   #Fix naming
   cn <- drives[1,]
